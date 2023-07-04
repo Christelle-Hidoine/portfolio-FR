@@ -14,6 +14,7 @@ tags:
 ## Conception du backoffice d'un site internet
 
 Le code est disponible sur <a href="https://github.com/Christelle-Hidoine/BackOffice-EShop">GitHub</a>.
+
 Dans le cadre de mon apprentissage, j'ai développé le backoffice d'un site marchand en utilisant la méthode SCRUM Agile en 3 sprints pour le réaliser.
 
 ### CRUD
@@ -22,7 +23,9 @@ Mise en place de toutes les méthodes permettant la gestion des données du site
 
 ### Sécurité
 
-La sécurité est au coeur de ce site internet. Les routes sont accessibles selon les permissions accordées à l'aide d'un Access Control List (ACL) qui sera vérifié à chaque authentification.
+La sécurité est au coeur de ce site internet.
+
+Les routes sont accessibles selon les permissions accordées à l'aide d'un Access Control List (ACL) qui sera vérifié à chaque authentification.
 
 Les tokens jouent également un rôle important dans l'envoi de données à notre base de données. Ils sont placés dans chaque formulaire et sur les liens de suppression des données afin de garantir l'utilisation la plus sécurisée de ce site et d'éviter le renvoi de formulaire une seconde fois (pour contrer les attaques CSRF)
 
@@ -31,4 +34,5 @@ Les données sont filtrées et traitées avant d'être transmises à notre base 
 #### Structure
 
 Ce site a été conçu selon l'architecture MVC (model, view, controller) et utilise les namespaces.
+
 Les technologies utilisées pour sa réalisation : PHP 7.4, Bootstrap 5.1, HTML5, CSS3

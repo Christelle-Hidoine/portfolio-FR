@@ -14,11 +14,13 @@ tags:
 ## Réalisation d'un site internet 100% Symfony
 
 Le code est disponible sur <a href="https://github.com/Christelle-Hidoine/popcorn-pulse">GitHub</a>.
+
 Développement d'un site internet en utilisant un seul framework PHP : Symfony.
 
 ### Schéma relationnel et base de données (SGBDR)
 
 Rappel des connaissances en terme de : MCD, MLD et MPD
+
 Utilisation des jointures, amélioration des performances avec les requêtes custom DQL (Doctrine).
 
 ### Formulaires et contraintes de validation
@@ -32,6 +34,7 @@ Utilisation de services afin de permettre la factorisation et la maintenabilité
 ### Sécurité
 
 Mise en place des roles hierarchy, access control et autres sécurités liées aux authentifications.
+
 Utilisation de VOTER pour renforcer la sécurité du site internet.
 
 ### Tests Unitaires et fonctionnels
