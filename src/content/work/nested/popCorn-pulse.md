@@ -41,6 +41,6 @@ Utilisation de VOTER pour renforcer la sécurité du site internet.
 
 Création et utilisation des tests unitaires et fonctionnels avec code_coverage pour vérifier la bonne implémentation du site internet.
 
-#### Technologies
+### Technologies
 
 Utilisation de Bootstrap 5.1, PHP 7.4, Symfony 5.4, HTML 5, CSS 3, KNP Paginator.

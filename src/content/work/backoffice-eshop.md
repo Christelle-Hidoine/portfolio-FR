@@ -31,8 +31,10 @@ Les tokens jouent également un rôle important dans l'envoi de données à notr
 
 Les données sont filtrées et traitées avant d'être transmises à notre base de données (pour contrer les attaques XSS).
 
-#### Structure
+### Structure
 
 Ce site a été conçu selon l'architecture MVC (model, view, controller) et utilise les namespaces.
+
+### Technologies
 
 Les technologies utilisées pour sa réalisation : PHP 7.4, Bootstrap 5.1, HTML5, CSS3
