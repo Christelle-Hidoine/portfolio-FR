@@ -2,7 +2,7 @@
 title: PopCorn Pulse
 publishDate: 2023-05-25 00:00:00
 img: /assets/popcorn_pulse.png
-img_alt: Page de recherche du site internet PopCorn Pulse, site de films et séries télévisées
+img_alt: Page de recherche du site internet PopCorn Pulse, site de films et séries télévisées et affichage d'un résultat pour une recherche par nom de film avec le nom du film, le synopsis, la date de sortie et l'affiche du film, la durée et le nombre d'étoiles correspondant aux avis sur ce film.
 description: |
   Site qui recense les films et séries télévisées les plus connus et qui donne la possibilité de laisser un commentaire et d'enregistrer en favoris les films qui ont été les plus marquant.
 tags:
