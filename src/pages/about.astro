@@ -5,54 +5,111 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="A propos | Christelle Hidoine" description="A propos de Christelle Hidoine">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				title="A propos"
+				tagline="Merci de votre intérêt. Continuez plus bas pour en apprendre davantage sur moi et mon parcours."
 			>
 				<img
 					width="1553"
 					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					src="/assets/carte.png"
+					alt="Christelle avec son chien sur fond de ciel bleu, stickers yoga, globe terrestre, patte de chien et feuille d'arbre"
 				/>
 			</Hero>
 
 			<section>
-				<h2 class="section-title">Background</h2>
+				<h2 class="section-title">Parcours</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						Polyvalente et ambitieuse, j'ai acquis des compétences relationnelles et organisationnelles à travers mes diverses expériences professionnelles en France et à l'étranger.
 					</p>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						Dorénavant, je suis Développeur Web.
 					</p>
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						Ma vocation s'est révélée lors de mes nombreux voyages, où j'ai constaté un manque flagrant de sites internet de qualité et mon envie irrépressible d'y remédier.
+					</p>
+					<p>
+						Je saurai mettre en œuvre toutes mes compétences ainsi que ma capacité d'adaptation, ma curiosité et motivation au service d'une entreprise innovante et soucieuse de son impact environnemental.
 					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<span>
+						<p class="content-title">Formation DWWM PHP</p>
+					</span>
+					<em>(Développeur Web et Web Mobile)</em>
+					<p>Ecole O'Clock Téléprésentiel (2023)</p>
+				</div>
+				<div class="content">
+					<span>
+						<p class="content-title">DAEFLE</p>
+					</span>
+					<em>Diplôme d'aptitude à l'enseignement du français langue étrangère</em>
+					<p>CNED (2016-2017)</p>
+				</div>
+				<div class="content">
+					<span>
+						<p class="content-title">BTS Action Commerciale</p>
+					</span>
+					<em>Management Commercial Opérationnel (MCO)</em>
+					<p>La Plaine de Neauphle - Trappes, 78 (2001-2003)</p>
+				</div>
+				<div class="content">
+					<span>
+						<p class="content-title">BAC Sciences et Technologies Tertiaires</p>
+					</span>
+					<p>Lycée Jean Vilar - Plaisir, 78 (2001)</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Compétences</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<span class="content-title">Développement d'applications web basées sur une architecture MVC en responsive design</span>
+					<ul>
+						<li>Apprentissage, manipulation et mise en pratique des langages de programmation : HTLM, CSS, PHP, SQL, JAVASCRIPT</li>
+						<li>Découverte et utilisation des Framework Backend associés à ces langages : Symfony, Laravel
+						et des Framework Frontend : BootStrap.</li>
+						<li>Utilisation et création d'une API REST, concept d'asynchronicité et utilisation de l'ORM Eloquent avec Laravel, et l'ORM Doctrine avec Symfony.</li>
+						<li>Utilisation d'un CMS et création d'un thème avec WordPress</li>
+						<li>Création, utilisation et gestion de bases de données avec MySQL, MariaDB, et modélisation conceptuelle de données avec Mocodo.</li>
+						<li>Application des recommandations de sécurisation d'un site web (connaissance des attaques possibles : DDOS, CSRF, XSS... et méthodes pour les contrer)</li>
+						<li>Installation d'un serveur local et déploiement d'un site internet</li>
+						<li>Utilisation au quotidien de Linux, Git, GitHub</li>
+						<li>Compréhension et mise en pratique du SEO</li>
+						<li>Gestion de projet avec la méthode SCRUM Agile</li>
+					</ul>	
+				</div>
+				<div class="content">
+					<span class="content-title">Administration des ventes</span>
+					<em>Domaine Automotive et Industrie</em>
+					<p>Suivi de livraison, facturation, traitement des réclamations
+						Développement et promotion du site marchand</p>
+				</div>
+				<div class="content">
+					<span class="content-title">Enseignement</span>
+					<em>Domaine Linguistique</em>
+					<p>Définition des objectifs pédagogiques, préparation des cours, suivi de progression</p>
+				</div>
+				<div class="content">
+					<span class="content-title">Logistique</span>
+					<em>Domaine Transport</em>
+					<p>Gestion des prestataires, réunion qualité, contrôle des OPEX</p>
+				</div>
+				<div class="content">
+					<span class="content-title">Management</span>
+					<em>Domaine Construction et Bâtiment</em>
+					<p>Création des process, développement des collaborateurs, gestion des planning</p>
+				</div>
+				<div class="content">
+					<span class="content-title">Relation clients</span>
+					<em>Domaine Construction et Bâtiment</em>
+					<p>Télévente, conseils, gestion d'un portefeuille clients, fidélisation</p>
 				</div>
 			</section>
 		</main>
@@ -89,6 +146,9 @@ import Hero from '../components/Hero.astro';
 
 	.content {
 		grid-column: 2 / 4;
+	}
+	.content-title {
+		font-weight: 800;
 	}
 
 	.content :global(a) {
