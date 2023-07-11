@@ -65,6 +65,9 @@ const iconLinks: { label: string; href: string; target: string; icon: IconProps[
 						</a>
 					))
 				}
+				<div class="switch-language">
+					<a class="social" href="https://christelle-hidoine-en.surge.sh/" title="English website">EN</a>
+				</div>
 			</div>
 
 			<div class="theme-toggle">
@@ -231,6 +234,10 @@ const iconLinks: { label: string; href: string; target: string; icon: IconProps[
 		display: flex;
 		align-items: center;
 		height: calc(var(--icon-size) + 2 * var(--icon-padding));
+	}
+
+	.switch-language {
+		font-size: var(--text-md);
 	}
 
 	@media (min-width: 50em) {
